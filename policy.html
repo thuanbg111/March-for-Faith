@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Policy — March For Faith</title>
+<link rel="stylesheet" href="assets/styles.css"/><link rel="icon" href="images/logo.png">
+</head><body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="March For Faith logo"></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="links" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="governance.html">Governance</a>
+      <a href="policy.html" class="active">Policy</a>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section container">
+  <h1>March For Faith — Policies</h1>
+  <p>These policies describe how March For Faith operates as a charitable organization whose specific purpose is to promote education and defense of religious liberty.</p>
+
+  <h2>Privacy Policy</h2>
+  <p>We collect only the information needed to respond to your inquiries, process donations, and operate programs (e.g., name, email, donation amount). We do not sell personal data. You may request access, correction, or deletion by emailing <a href="mailto:contact@marchforfaith.click">contact@marchforfaith.click</a>.</p>
+  <p>Analytics or cookies may be used to understand site usage. You can disable cookies via your browser settings.</p>
+
+  <h2>Donation & Refund Policy</h2>
+  <p>Donations support our charitable and educational work. Contributions are generally non‑refundable. If a processing error occurs or an unauthorized transaction is suspected, contact us at <a href="mailto:contact@marchforfaith.click">contact@marchforfaith.click</a> within 7 days and we will review the request.</p>
+
+  <h2>Non‑Discrimination</h2>
+  <p>March For Faith welcomes all people regardless of faith, background, ethnicity, or beliefs. Program participation and services are provided without discrimination.</p>
+
+  <h2>Intellectual Property</h2>
+  <p>Unless noted otherwise, website content is © <span id="year"></span> March For Faith. Content may be shared for educational, non‑commercial purposes with attribution.</p>
+
+  <h2>Website Terms of Use</h2>
+  <ul>
+    <li>Content is provided for informational and educational purposes; it does not constitute legal advice.</li>
+    <li>Links to third‑party sites are provided for convenience and do not imply endorsement.</li>
+    <li>By using this site, you agree to these terms and to our Privacy Policy.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Address: 1126 Geneva Street, Glendale, CA 91207<br>
+     Email: <a href="mailto:contact@marchforfaith.click">contact@marchforfaith.click</a><br>
+     Phone: <a href="tel:+12052830360">+1 205 283 0360</a></p>
+</main>
+
+<footer class="footer">
+  <div class="container grid">
+    <div>
+      <img src="images/logo.png" alt="" style="width:160px;height:auto;margin-bottom:.5rem;">
+      <div class="small">© <span id="year"></span> March For Faith</div>
+      <div class="small">A California Nonprofit Public Benefit Corporation — EIN: 85-2065716</div>
+    </div>
+    <div>
+      <div class="small"><strong>Registered in California</strong><br>Nonprofit Public Benefit Corporation (501(c)(3))</div>
+    </div>
+    <div>
+      <div class="small">
+        <strong>Address:</strong><br>1126 Geneva Street, Glendale, CA 91207<br>
+        <strong>Phone:</strong> <a href="tel:+12052830360">+1 205 283 0360</a><br>
+		<strong>Email:</strong> <a href="mailto:contact@marchforfaith.click">contact@marchforfaith.click</a><br>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const b=document.querySelector('.menu-toggle'),l=document.querySelector('.links');
+  if(b&&l){b.addEventListener('click',()=>{const o=l.style.display==='flex';l.style.display=o?'none':'flex';b.setAttribute('aria-expanded',o?'false':'true');});}
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+</script>
+</body></html>
